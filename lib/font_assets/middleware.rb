@@ -15,7 +15,7 @@ module FontAssets
       {
         "Access-Control-Allow-Origin" => origin,
         "Access-Control-Allow-Methods" => "GET",
-        "Access-Control-Allow-Headers" => "x-requested-with",
+        "Access-Control-Allow-Headers" => "x-requested-with, x-csrf-token",
         "Access-Control-Max-Age" => "3628800"
       }
     end
